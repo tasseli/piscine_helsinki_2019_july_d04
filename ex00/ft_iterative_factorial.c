@@ -16,7 +16,7 @@ int		ft_iterative_factorial(int nb)
 	int i;
 
 	if (nb > 12)
-		return 0;
+		return (0);
 	answer = 1;
 	i = nb;
 	while (i > 1)
