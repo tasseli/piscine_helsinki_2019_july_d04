@@ -19,7 +19,7 @@ int		ft_iterative_power(int nb, int power)
 		return (0);
 	i = power;
 	result = 1;
-	while (power > 0)
+	while (i > 0)
 	{
 		result = result * nb;
 		--i;
